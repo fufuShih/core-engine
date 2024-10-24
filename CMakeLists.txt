@@ -23,14 +23,20 @@ find_package(spdlog REQUIRED)
 find_package(OpenGL REQUIRED)
 
 # Add source files
-add_executable(${PROJECT_NAME} 
+set(SOURCES 
     src/main.cpp
+    src/Core/Engine.cpp
+    src/Core/Node.cpp
 )
+
+# Create executable
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Include directories
 target_include_directories(${PROJECT_NAME} 
     PRIVATE 
         ${CMAKE_CURRENT_SOURCE_DIR}/src
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Core
 )
 
 # Link libraries

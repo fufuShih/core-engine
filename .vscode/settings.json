@@ -13,7 +13,9 @@
     },
     "editor.formatOnSave": true,
     "files.associations": {
+        ".env*": "dotenv",
         "*.hpp": "cpp",
-        "*.cpp": "cpp"
+        "*.cpp": "cpp",
+        "memory": "cpp"
     }
 }
