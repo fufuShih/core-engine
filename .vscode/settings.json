@@ -1,0 +1,19 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "C:/ProgramApp/ScoopGlobal/apps/msys2/2024-07-27/mingw64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/ProgramApp/ScoopGlobal/apps/msys2/2024-07-27/mingw64/bin/g++.exe",
+        "CMAKE_PREFIX_PATH": "C:/ProgramApp/ScoopGlobal/apps/msys2/2024-07-27/mingw64",
+        "CMAKE_MAKE_PROGRAM": "C:/ProgramApp/ScoopGlobal/apps/msys2/2024-07-27/mingw64/bin/ninja.exe"
+    },
+    "cmake.debugConfig": {
+        "console": "externalTerminal"
+    },
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.hpp": "cpp",
+        "*.cpp": "cpp"
+    }
+}
